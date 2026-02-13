@@ -121,6 +121,11 @@ h4 {
 
 .logo__img {
     height: 38px;
+    filter: brightness(0) invert(1);
+}
+
+.footer__logo-img {
+    filter: brightness(0) invert(1);
 }
 
 /* Nav */
