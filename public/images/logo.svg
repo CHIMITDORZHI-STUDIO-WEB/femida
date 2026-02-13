@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 80" width="400" height="80">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&amp;display=swap');
+    </style>
+  </defs>
+  <text x="200" y="46" text-anchor="middle" font-family="'Cormorant Garamond', 'Georgia', serif" font-weight="700" font-size="52" fill="#C9A84C" letter-spacing="8">ФЕМИДА</text>
+  <text x="200" y="72" text-anchor="middle" font-family="'Inter', 'Arial', sans-serif" font-weight="400" font-size="13" fill="#C9A84C" letter-spacing="5">ЮРИДИЧЕСКОЕ АГЕНТСТВО</text>
+</svg>
