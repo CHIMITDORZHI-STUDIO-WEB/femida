@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Юридическое Агентство «ФЕМИДА» — Сургут | Защита ваших прав</title>
+    <meta name="description"
+        content="Юридические услуги в Сургуте с 2005 года. Банкротство, семейные, жилищные, наследственные споры. 450+ выигранных дел. Бесплатные консультации для участников СВО.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header__inner">
+            <a href="#" class="logo">
+                <img src="public/images/logo.png" alt="ФЕМИДА" class="logo__img">
+            </a>
+
+            <nav class="nav" id="nav">
+                <ul class="nav__list">
+                    <li><a href="#about" class="nav__link">О нас</a></li>
+                    <li><a href="#services" class="nav__link">Услуги</a></li>
+                    <li><a href="#practice" class="nav__link">Практика</a></li>
+                    <li><a href="#contacts" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__right">
+                <a href="tel:+79322537414" class="header__phone">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path
+                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                        </path>
+                    </svg>
+                    <span>+7 (932) 253-74-14</span>
+                </a>
+                <button class="burger" id="burger" aria-label="Меню">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <!-- Animated particles background -->
+            <canvas id="particles-canvas"></canvas>
+            <div class="hero__gradient"></div>
+
+            <div class="container hero__content">
+                <div class="hero__badge">Юридические услуги с 2005 года</div>
+                <h1 class="hero__title">
+                    <span class="hero__title-line">Юридическое</span>
+                    <span class="hero__title-line">Агентство</span>
+                    <span class="hero__title-accent">«ФЕМИДА»</span>
+                </h1>
+                <p class="hero__subtitle">Ваша защита — наша миссия.<br>Правовая безопасность в надежных руках.</p>
+                <p class="hero__tagline">Мы знаем, что делать.</p>
+                <div class="hero__actions">
+                    <a href="#contacts" class="btn btn--primary">
+                        <span>Получить консультацию</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </a>
+                    <a href="tel:+79322537414" class="btn btn--outline">Позвонить</a>
+                </div>
+            </div>
+
+            <!-- Decorative scales icon -->
+            <div class="hero__scales">⚖</div>
+        </section>
+
+        <!-- Trust Block -->
+        <section id="about" class="trust">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">О нас</span>
+                    <h2 class="section-title">Почему выбирают нас</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="trust__stats">
+                    <div class="stat-card" data-animate>
+                        <div class="stat-card__icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <circle cx="12" cy="12" r="10" />
+                                <polyline points="12 6 12 12 16 14" />
+                            </svg>
+                        </div>
+                        <div class="stat-card__number">20</div>
+                        <div class="stat-card__label">лет на рынке Сургута</div>
+                        <div class="stat-card__sub">Работаем с 2005 года</div>
+                    </div>
+                    <div class="stat-card" data-animate>
+                        <div class="stat-card__icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                                <polyline points="22 4 12 14.01 9 11.01" />
+                            </svg>
+                        </div>
+                        <div class="stat-card__number">450+</div>
+                        <div class="stat-card__label">выигранных дел</div>
+                        <div class="stat-card__sub">За последний год</div>
+                    </div>
+                    <div class="stat-card" data-animate>
+                        <div class="stat-card__icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                                <circle cx="9" cy="7" r="4" />
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                            </svg>
+                        </div>
+                        <div class="stat-card__number">Команда</div>
+                        <div class="stat-card__label">опытных юристов</div>
+                        <div class="stat-card__sub">Экспертная поддержка</div>
+                    </div>
+                </div>
+
+                <!-- Founder Block -->
+                <div class="founder">
+                    <div class="founder__photo-col">
+                        <div class="founder__photo-frame">
+                            <img src="public/images/founder.png" alt="Инна Владимировна Перевозчикова"
+                                class="founder__photo">
+                        </div>
+                        <div class="founder__name-block">
+                            <strong class="founder__name">Инна Владимировна Перевозчикова</strong>
+                            <span class="founder__role">Основатель агентства</span>
+                        </div>
+                    </div>
+                    <div class="founder__text-col">
+                        <blockquote class="founder__quote">
+                            «Мы превращаем бизнес в удовольствие»
+                        </blockquote>
+                        <p class="founder__desc">Налажены деловые контакты с различными организациями, что позволяет
+                            предлагать клиентам выполнение работы качественно и оперативно. Компания сотрудничает с
+                            различными экспертными, оценочными и медицинскими организациями Сургута.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SVO Special Focus -->
+        <section class="svo">
+            <div class="container">
+                <div class="svo__card">
+                    <div class="svo__ribbon">Важно</div>
+                    <div class="svo__inner">
+                        <div class="svo__icon-wrap">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                            </svg>
+                        </div>
+                        <h2 class="svo__title">Поддержка участников СВО и их семей</h2>
+                        <div class="svo__grid">
+                            <div class="svo__item">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                <span>Защита нарушенных прав участников СВО и членов их семей</span>
+                            </div>
+                            <div class="svo__item">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                <span>Бесплатные консультации</span>
+                            </div>
+                            <div class="svo__item">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                <span>Установление фактов: родство, иждивение, сожительство</span>
+                            </div>
+                            <div class="svo__item">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                <span>Признание безвестно отсутствующим и погибшим</span>
+                            </div>
+                        </div>
+                        <a href="#contacts" class="btn btn--primary svo__btn">Получить помощь</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Направления</span>
+                    <h2 class="section-title">Наши услуги</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="services__grid">
+                    <article class="s-card" data-animate>
+                        <div class="s-card__icon">
+                            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <rect x="3" y="3" width="18" height="18" rx="2" />
+                                <line x1="3" y1="9" x2="21" y2="9" />
+                                <line x1="9" y1="21" x2="9" y2="9" />
+                            </svg>
+                        </div>
+                        <h3 class="s-card__title">Банкротство физических лиц</h3>
+                        <p class="s-card__text">Списание долгов, защита от коллекторов, сохранение имущества.</p>
+                    </article>
+
+                    <article class="s-card" data-animate>
+                        <div class="s-card__icon">
+                            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path
+                                    d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+                            </svg>
+                        </div>
+                        <h3 class="s-card__title">Семейные споры</h3>
+                        <p class="s-card__text">Разводы, алименты, раздел имущества, споры о детях, лишение родительских
+                            прав.</p>
+                        <button class="s-card__more" data-toggle="acc-family">Подробнее →</button>
+                    </article>
+
+                    <article class="s-card" data-animate>
+                        <div class="s-card__icon">
+                            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                                <polyline points="9 22 9 12 15 12 15 22" />
+                            </svg>
+                        </div>
+                        <h3 class="s-card__title">Жилищные споры</h3>
+                        <p class="s-card__text">Выселение, прописка, приватизация, споры с ЖКХ, залив квартир.</p>
+                        <button class="s-card__more" data-toggle="acc-housing">Подробнее →</button>
+                    </article>
+
+                    <article class="s-card" data-animate>
+                        <div class="s-card__icon">
+                            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                                <polyline points="14 2 14 8 20 8" />
+                                <line x1="16" y1="13" x2="8" y2="13" />
+                                <line x1="16" y1="17" x2="8" y2="17" />
+                            </svg>
+                        </div>
+                        <h3 class="s-card__title">Наследственные споры</h3>
+                        <p class="s-card__text">Оспаривание завещаний, раздел наследства, восстановление сроков.</p>
+                        <button class="s-card__more" data-toggle="acc-legacy">Подробнее →</button>
+                    </article>
+
+                    <article class="s-card" data-animate>
+                        <div class="s-card__icon">
+                            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+                                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                            </svg>
+                        </div>
+                        <h3 class="s-card__title">Арбитражные споры</h3>
+                        <p class="s-card__text">Экономические споры, договоры, налоги, банкротство юрлиц.</p>
+                        <button class="s-card__more" data-toggle="acc-arbitr">Подробнее →</button>
+                    </article>
+
+                    <article class="s-card" data-animate>
+                        <div class="s-card__icon">
+                            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                            </svg>
+                        </div>
+                        <h3 class="s-card__title">Защита прав потребителей</h3>
+                        <p class="s-card__text">Возврат денег, некачественные товары и услуги, нарушение сроков.</p>
+                        <button class="s-card__more" data-toggle="acc-consumer">Подробнее →</button>
+                    </article>
+
+                    <article class="s-card" data-animate>
+                        <div class="s-card__icon">
+                            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <circle cx="12" cy="12" r="10" />
+                                <line x1="12" y1="8" x2="12" y2="12" />
+                                <line x1="12" y1="16" x2="12.01" y2="16" />
+                            </svg>
+                        </div>
+                        <h3 class="s-card__title">Пенсионные споры</h3>
+                        <p class="s-card__text">Назначение пенсии, перерасчет стажа, обжалование отказов ПФР.</p>
+                        <button class="s-card__more" data-toggle="acc-pension">Подробнее →</button>
+                    </article>
+
+                    <article class="s-card" data-animate>
+                        <div class="s-card__icon">
+                            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                            </svg>
+                        </div>
+                        <h3 class="s-card__title">Установление фактов</h3>
+                        <p class="s-card__text">Родство, владение имуществом, исправление ошибок в документах.</p>
+                        <button class="s-card__more" data-toggle="acc-facts">Подробнее →</button>
+                    </article>
+
+                    <article class="s-card" data-animate>
+                        <div class="s-card__icon">
+                            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                                <path d="M9 12l2 2 4-4" />
+                            </svg>
+                        </div>
+                        <h3 class="s-card__title">Защита призывников</h3>
+                        <p class="s-card__text">Защита нарушенных прав призывников.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Detailed Info (Accordions) -->
+        <section id="practice" class="details">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Практика</span>
+                    <h2 class="section-title">Подробная информация</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="accordion-wrap">
+                    <div class="acc" id="acc-housing">
+                        <button class="acc__head">
+                            <span>Жилищные споры</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="6 9 12 15 18 9" />
+                            </svg>
+                        </button>
+                        <div class="acc__body">
+                            <ul>
+                                <li><strong>Споры о праве собственности:</strong> признание права, оспаривание сделок
+                                    (купля-продажа, дарение, мена), наследование жилья.</li>
+                                <li><strong>Наём и аренда:</strong> заключение/расторжение договоров, порядок
+                                    пользования, взыскание арендной платы.</li>
+                                <li><strong>Приватизация:</strong> обжалование отказов, признание права собственности.
+                                </li>
+                                <li><strong>Выселение:</strong> принудительное выселение, снятие с регистрационного
+                                    учёта.</li>
+                                <li><strong>Перепланировка:</strong> законность перепланировки и реконструкции.</li>
+                                <li><strong>Споры с УК и ТСЖ:</strong> качество услуг, начисления за ЖКУ, общедомовые
+                                    работы.</li>
+                                <li><strong>Споры между соседями:</strong> общедомовое имущество, нарушение правил,
+                                    заливы.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="acc" id="acc-legacy">
+                        <button class="acc__head">
+                            <span>Наследственные споры</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="6 9 12 15 18 9" />
+                            </svg>
+                        </button>
+                        <div class="acc__body">
+                            <ul>
+                                <li><strong>Право на наследство:</strong> доказательство родства и права наследования.
+                                </li>
+                                <li><strong>Раздел имущества:</strong> споры между наследниками о долях.</li>
+                                <li><strong>Оспаривание завещания:</strong> недействительность, несоответствие воле
+                                    завещателя.</li>
+                                <li><strong>Восстановление срока:</strong> судебное восстановление пропущенных сроков
+                                    принятия наследства.</li>
+                                <li><strong>Недостойные наследники:</strong> признание наследника недостойным.</li>
+                                <li><strong>Состав наследства:</strong> включение/исключение имущества из наследственной
+                                    массы.</li>
+                                <li><strong>Супружеская доля:</strong> выделение доли пережившего супруга.</li>
+                                <li><strong>Споры с кредиторами:</strong> претензии по долгам наследодателя.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="acc" id="acc-family">
+                        <button class="acc__head">
+                            <span>Семейные споры</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="6 9 12 15 18 9" />
+                            </svg>
+                        </button>
+                        <div class="acc__body">
+                            <ul>
+                                <li><strong>Расторжение брака:</strong> развод через суд, в том числе при наличии детей.
+                                </li>
+                                <li><strong>Раздел имущества:</strong> недвижимость, автомобили, вклады и т.д.</li>
+                                <li><strong>Признание брака недействительным.</strong></li>
+                                <li><strong>Брачный договор:</strong> заключение, изменение, расторжение.</li>
+                                <li><strong>Лишение/ограничение родительских прав.</strong></li>
+                                <li><strong>Место жительства ребёнка:</strong> с кем из родителей будет проживать
+                                    ребёнок.</li>
+                                <li><strong>Порядок общения с ребёнком.</strong></li>
+                                <li><strong>Установление отцовства/материнства.</strong></li>
+                                <li><strong>Алименты:</strong> взыскание на содержание детей и родителей.</li>
+                                <li><strong>Усыновление и опека.</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="acc" id="acc-arbitr">
+                        <button class="acc__head">
+                            <span>Арбитражные споры</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="6 9 12 15 18 9" />
+                            </svg>
+                        </button>
+                        <div class="acc__body">
+                            <p>Арбитражные суды рассматривают споры с участием юрлиц и ИП.</p>
+                            <ul>
+                                <li><strong>Договорные споры:</strong> поставка, подряд, аренда и другие.</li>
+                                <li><strong>Корпоративные споры:</strong> разногласия между участниками и акционерами.
+                                </li>
+                                <li><strong>Налоговые споры:</strong> обжалование решений ФНС, споры по уплате налогов.
+                                </li>
+                                <li><strong>Банкротство:</strong> процедуры для юридических и физических лиц.</li>
+                                <li><strong>Административные споры:</strong> оспаривание действий госорганов в сфере
+                                    лицензирования, проверок.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="acc" id="acc-consumer">
+                        <button class="acc__head">
+                            <span>Защита прав потребителей</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="6 9 12 15 18 9" />
+                            </svg>
+                        </button>
+                        <div class="acc__body">
+                            <ul>
+                                <li><strong>Товары ненадлежащего качества:</strong> брак, несоответствие
+                                    характеристикам, нарушение гарантии.</li>
+                                <li><strong>Услуги ненадлежащего качества:</strong> образование, медицина, транспорт,
+                                    туризм.</li>
+                                <li><strong>Нарушения при заключении договоров:</strong> недобросовестная реклама,
+                                    навязывание услуг.</li>
+                                <li><strong>Непредоставление информации:</strong> о товаре или услуге.</li>
+                                <li><strong>Нарушение сроков:</strong> задержка работ, доставки.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="acc" id="acc-pension">
+                        <button class="acc__head">
+                            <span>Пенсионные споры</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="6 9 12 15 18 9" />
+                            </svg>
+                        </button>
+                        <div class="acc__body">
+                            <ul>
+                                <li><strong>Отказ в назначении пенсии:</strong> недостаточный стаж, возраст, неверные
+                                    документы.</li>
+                                <li><strong>Неправильный расчет:</strong> ошибки в учете стажа, заработка, взносов.</li>
+                                <li><strong>Необоснованные удержания</strong> из назначенной пенсии.</li>
+                                <li><strong>Невыплата</strong> назначенной пенсии.</li>
+                                <li><strong>Перерасчёт</strong> и включение периодов работы в стаж.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="acc" id="acc-facts">
+                        <button class="acc__head">
+                            <span>Установление юридических фактов</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="6 9 12 15 18 9" />
+                            </svg>
+                        </button>
+                        <div class="acc__body">
+                            <ul>
+                                <li><strong>Личные права:</strong> родство, иждивение, совместное проживание (для СВО),
+                                    рождение, брак, развод, смерть, отцовство.</li>
+                                <li><strong>Имущественные права:</strong> владение недвижимостью, принятие наследства,
+                                    место открытия наследства.</li>
+                                <li><strong>События:</strong> несчастный случай, смерть (если ЗАГС отказал).</li>
+                                <li><strong>Документы:</strong> принадлежность, исправление ошибок в имени, фамилии,
+                                    отчестве.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container cta__inner">
+                <h2 class="cta__title">Нужна юридическая помощь?</h2>
+                <p class="cta__text">Запишитесь на консультацию — мы разберём вашу ситуацию и предложим решение.</p>
+                <a href="tel:+79322537414" class="btn btn--primary btn--large">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path
+                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                    </svg>
+                    <span>+7 (932) 253-74-14</span>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="contacts" class="footer">
+        <div class="container footer__grid">
+            <div class="footer__col">
+                <img src="public/images/logo.png" alt="ФЕМИДА" class="footer__logo-img">
+                <p class="footer__tagline">Правовая безопасность в надежных руках</p>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__heading">Контакты</h4>
+                <div class="footer__contact">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                        <circle cx="12" cy="10" r="3" />
+                    </svg>
+                    <span>г. Сургут, пр. Ленина 21-406</span>
+                </div>
+                <div class="footer__contact">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <path
+                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                    </svg>
+                    <a href="tel:+79322537414">+7 (932) 253-74-14</a>
+                </div>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__heading">Навигация</h4>
+                <a href="#about" class="footer__link">О нас</a>
+                <a href="#services" class="footer__link">Услуги</a>
+                <a href="#practice" class="footer__link">Практика</a>
+                <a href="#contacts" class="footer__link">Контакты</a>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <p>© 2005–2026 Юридическое Агентство «ФЕМИДА». Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
